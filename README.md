@@ -23,6 +23,14 @@ I design systems that are reproducible, scalable and production-ready.
 
 ---
 
+## What I showcase here
+
+https://github.com/thomaszachmann/onprem-rke2-platform-reference
+
+
+
+---
+
 ## Core Platform Projects
 
 ### AI-Ops / Compliance Engineering
