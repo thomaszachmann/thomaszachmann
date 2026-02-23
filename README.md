@@ -25,6 +25,9 @@ I design systems that are reproducible, scalable and production-ready.
 
 ## What I showcase here
 
+### Enterprise RKE2 HA Cluster - Ansible Deployment
+Production-grade Ansible repository for deploying RKE2 Kubernetes in HA mode (embedded etcd) on Ubuntu 24.04 with kube-vip for API server high availability, Longhorn distributed storage, Kyverno policy engine, cert-manager TLS automation, and Prometheus/Grafana observability.
+
 https://github.com/thomaszachmann/onprem-rke2-platform-reference
 
 
