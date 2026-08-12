@@ -1,131 +1,82 @@
 # Thomas Zachmann
 
-DevOps Engineer | Cloud Architect | Kubernetes Specialist | AI-Driven Infrastructure
-
-Hamburg, Germany
-
----
-
-## Professional Profile
-
-I am a senior DevOps and Cloud Engineer with more than 20 years of experience designing, building and operating production-grade infrastructure platforms.
-
-My focus areas:
-
-- Kubernetes platforms (on-premise and cloud)
-- Infrastructure as Code (Terraform, Ansible)
-- GitOps and CI/CD architectures
-- High availability systems
-- Security and compliance automation
-- AI-assisted operations and infrastructure analytics
-
-I design systems that are reproducible, scalable and production-ready.
+**Kubernetes platform architect for regulated and sovereign environments**
+On-prem · bare-metal · IONOS Cloud / Open Telekom Cloud · Hamburg, Germany
 
 ---
 
-## What I showcase here
+I build Kubernetes platforms for environments where security and auditability are
+the requirement, not the extra: on-premise, on bare metal, in air-gapped networks,
+and on European cloud providers.
 
-### Enterprise RKE2 HA Cluster - Ansible Deployment
-Production-grade Ansible repository for deploying RKE2 Kubernetes in HA mode (embedded etcd) on Ubuntu 24.04 with kube-vip for API server high availability, Longhorn distributed storage, Kyverno policy engine, cert-manager TLS automation, and Prometheus/Grafana observability.
+Since 2020 I have worked exclusively in regulated settings — federal security
+technology, public-sector IT, and banking. My focus is the part most platforms skip:
+policy enforcement, secrets management, workload identity, supply-chain evidence,
+and the documentation that survives an audit.
 
-https://github.com/thomaszachmann/onprem-rke2-platform-reference
-
-
-
----
-
-## Core Platform Projects
-
-### AI-Ops / Compliance Engineering
-
-AI-assisted infrastructure analysis and compliance automation  
-Architecture patterns for technical evidence generation and audit readiness
-
-Repository:
-https://github.com/YOUR_USERNAME/PROJECT_NAME
+Certified **CKS**, **CKA**, **CKAD**. Twenty years of software engineering before that
+(SAP, C/C++, Go), which is why the automation here is written rather than assembled.
 
 ---
 
-### Kubernetes Platform Engineering
+## Repositories
 
-Enterprise-grade RKE2 clusters  
-Longhorn distributed storage  
-High availability control plane architecture  
-Production monitoring stacks (Prometheus, Grafana, Elastic/OpenSearch)
+### [onprem-rke2-platform-reference](https://github.com/thomaszachmann/onprem-rke2-platform-reference)
 
-Repository:
-https://github.com/YOUR_USERNAME/PROJECT_NAME
+Production-grade Ansible automation for a highly available RKE2 cluster on Ubuntu 24.04:
+embedded etcd, kube-vip for control-plane HA, Longhorn distributed storage, cert-manager,
+Kyverno policy enforcement in enforce mode, namespace-isolating NetworkPolicies, audit
+logging, and a Prometheus/Grafana stack.
 
----
+Includes the architecture, the security model, the backup strategy, and a step-by-step
+deployment path.
 
-### GitLab Enterprise Architecture
+`ansible` · `rke2` · `kubernetes` · `kyverno` · `longhorn` · `on-premise` · `hardening`
 
-Self-managed GitLab deployments  
-High availability (Patroni, Praefect, Geo)  
-Secure container registry workflows  
-Image signing and SBOM integration  
-CI/CD platform hardening
+### [aws-k8s-platform-reference](https://github.com/thomaszachmann/aws-k8s-platform-reference)
 
-Repository:
-https://github.com/YOUR_USERNAME/PROJECT_NAME
+Terraform modules for an EKS platform — network, IAM, security and cluster layers kept
+separate — with a hardening checklist and secrets-management documentation.
+
+`terraform` · `aws` · `eks` · `kubernetes` · `iam` · `security`
 
 ---
 
-### Infrastructure as Code
+## What I work on
 
-Terraform modules for:
-
-- Proxmox environments
-- Kubernetes clusters
-- GitLab infrastructure
-- Cloud-native workloads
-
-Ansible automation for:
-
-- Bare-metal provisioning
-- Cluster bootstrap
-- Secure service deployment
-
-Repository:
-https://github.com/YOUR_USERNAME/PROJECT_NAME
+| Area | Detail |
+|---|---|
+| **Kubernetes** | On-prem and bare metal (RKE2, Kubespray, OpenShift, Rancher), managed (EKS), MetalLB, Istio, Helm, Kustomize |
+| **Security & policy** | Kyverno, HashiCorp Vault, Keycloak, Trivy, Harbor, Dependency Track, cert-manager |
+| **Automation & IaC** | Ansible, Terraform, Crossplane, Go, Python |
+| **GitOps & CI/CD** | Argo CD, Flux, GitLab CI, Jenkins, GitHub Actions |
+| **Observability** | Prometheus, Grafana, Loki, Tempo, Elastic |
+| **Sovereign platforms** | IONOS Cloud, Open Telekom Cloud, on-prem virtualisation |
 
 ---
 
-## Technical Focus Areas
+## How I work
 
-Kubernetes (CKA / CKAD / CKS level)  
-RKE2 and hardened on-premise clusters  
-Container security and image signing  
-HashiCorp Vault PKI architectures  
-Longhorn distributed storage  
-Observability stacks  
-Blockchain node infrastructure (Ethereum full nodes, analytics pipelines)  
-AI-assisted DevOps workflows  
+Infrastructure belongs in version control. Automation has to be reproducible or it is
+not automation. Security is designed in, not bolted on afterwards. Monitoring is decided
+before production, not after the first incident. And a platform that nobody but its
+author can operate has failed, however elegant it is — so the handover documentation is
+part of the deliverable, not an afterthought.
 
 ---
 
-## Architecture Philosophy
+## Kurzprofil (DE)
 
-- Infrastructure must be version-controlled
-- Automation must be reproducible
-- Security must be integrated, not added later
-- Monitoring must be designed before production
-- Systems must survive failure scenarios
+Freiberuflicher Plattform-Architekt aus Hamburg. Schwerpunkt: Kubernetes in regulierten
+und souveränen Umgebungen — On-Prem, Bare-Metal und auf europäischen Cloud-Plattformen.
+Zertifiziert als CKS, CKA und CKAD. Seit 2020 durchgängig in Umfeldern mit erhöhten
+Anforderungen an Sicherheit, Nachweisbarkeit und Governance.
 
----
-
-## Selected Public Repositories
-
-Provide structured links to your most representative repositories here.
-
-1. Platform Reference Architecture  
-2. Secure Kubernetes Deployment  
-3. AI-driven Infrastructure Toolkit  
-4. GitLab Enterprise Stack  
+**Sprachen:** Deutsch und Dänisch (Muttersprache), Englisch (fließend)
 
 ---
 
 ## Contact
 
-LinkedIn: https://linkedin.com/in/YOUR_PROFILE  
-Website: https://yourdomain.com
+- Website: <https://thomaszachmann.de>
+- E-Mail: thomas@zachmann.work
