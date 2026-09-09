@@ -101,6 +101,7 @@ download.
 | Area | Detail |
 |---|---|
 | **Kubernetes** | On-prem and bare metal (RKE2, Kubespray, OpenShift, Rancher), managed (EKS), MetalLB, Istio, Helm, Kustomize |
+| **AI platforms** | Model serving (KServe, vLLM), AI gateway and quotas (LiteLLM), GPU scheduling (NVIDIA GPU Operator, DCGM), vector storage (pgvector), governance and FinOps |
 | **Security & policy** | Kyverno, HashiCorp Vault, Keycloak, Trivy, Harbor, Dependency Track, cert-manager |
 | **Automation & IaC** | Ansible, Terraform, Crossplane, Go, Python |
 | **GitOps & CI/CD** | Argo CD, Flux, GitLab CI, Jenkins, GitHub Actions |
