@@ -76,6 +76,26 @@ Runnable companion code is in [books](https://github.com/thomaszachmann/books).
 
 ---
 
+## [nyrvex](https://nyrvex.com)
+
+**The control plane layer for AI infrastructure** — an architecture, not a product.
+
+Six systems run an enterprise AI platform: gateway, serving layer, inference server,
+identity provider, secret store and GPU metrics. Each of them knows its own slice, and a
+person holds the rest together by hand. nyrvex is one catalog of models, teams and
+environments from which the configuration of those systems is generated — and which works
+out whether a declaration fits before anything rolls out. Sizing holds back the rollout
+rather than rejecting the declaration, and an override is recorded.
+
+It grew out of appendix B.5 of the *Enterprise AI Platform* Lab Guide, where generated
+configuration is left to the reader as an exercise. The site sets out the problem, the four
+parts, the arithmetic and the three design decisions behind them. There is nothing to
+download.
+
+`ai-infrastructure` · `control-plane` · `kserve` · `vllm` · `litellm` · `keycloak` · `openbao`
+
+---
+
 ## What I work on
 
 | Area | Detail |
