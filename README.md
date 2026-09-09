@@ -132,6 +132,11 @@ Governance und FinOps. Vom zweiten Buch steht die deutsche Fassung kostenlos unt
 [thomaszachmann.de/buch](https://thomaszachmann.de/buch), beide englischen Ausgaben
 erscheinen bei Leanpub.
 
+**nyrvex:** Entwurf einer Control-Plane-Schicht für AI-Infrastruktur — ein Katalog aus
+Modellen, Teams und Umgebungen, aus dem die Konfiguration von Gateway, Serving-Layer,
+Identity Provider und Secret Store erzeugt wird. Eine Architektur, kein Produkt:
+[nyrvex.com](https://nyrvex.com)
+
 **Sprachen:** Deutsch und Dänisch (Muttersprache), Englisch (fließend)
 
 ---
