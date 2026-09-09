@@ -42,6 +42,40 @@ separate — with a hardening checklist and secrets-management documentation.
 
 ---
 
+## Books
+
+### [Vault in Practice](https://leanpub.com/vault-in-practice)
+
+*A Hands-On Lab Guide to HashiCorp Vault and OpenBao.* Twenty-four chapters, each ending
+in a working lab that runs on a laptop in Docker: initialising a cluster and splitting the
+key with Shamir's Secret Sharing, policies that fail before they work, dynamic database
+credentials, a private CA issuing 24-hour certificates, transit encryption, four ways of
+delivering secrets into Kubernetes, and a three-node Raft cluster whose quorum you break
+on purpose.
+
+Five chapters ask you to destroy your own installation and recover it, because that is the
+part a reference manual cannot teach. Appendix F maps every published HashiCorp Certified:
+Vault Associate objective to a chapter and a lab. 581 pages.
+
+`vault` · `openbao` · `secrets-management` · `pki` · `kubernetes` · `docker`
+
+### [Enterprise AI Platform — Lab Guide](https://leanpub.com/enterprise-ai-platform)
+
+GPU infrastructure, model serving, the AI gateway, governance and the cost model — what
+lies between a proof of concept and an AI platform a company can actually operate. 386
+pages, 23 labs with vLLM, KServe, LiteLLM, the NVIDIA GPU Operator, Keycloak, OpenBao,
+Argo CD and pgvector, including the calculations that decide whether a platform is
+affordable to run.
+
+Written for platform engineers, not for data scientists. A German edition is available
+free of charge at [thomaszachmann.de/buch](https://thomaszachmann.de/buch).
+
+`ai-platform` · `llm` · `vllm` · `kserve` · `gpu-operator` · `kubernetes` · `finops`
+
+Runnable companion code is in [books](https://github.com/thomaszachmann/books).
+
+---
+
 ## What I work on
 
 | Area | Detail |
@@ -72,6 +106,12 @@ und souveränen Umgebungen — On-Prem, Bare-Metal und auf europäischen Cloud-P
 Zertifiziert als CKS, CKA und CKAD. Seit 2020 durchgängig in Umfeldern mit erhöhten
 Anforderungen an Sicherheit, Nachweisbarkeit und Governance.
 
+**Bücher:** *Vault in Practice* — 581 Seiten zu HashiCorp Vault und OpenBao — sowie
+*Enterprise AI Platform — Lab Guide* zu GPU-Infrastruktur, Model Serving, AI Gateway,
+Governance und FinOps. Vom zweiten Buch steht die deutsche Fassung kostenlos unter
+[thomaszachmann.de/buch](https://thomaszachmann.de/buch), beide englischen Ausgaben
+erscheinen bei Leanpub.
+
 **Sprachen:** Deutsch und Dänisch (Muttersprache), Englisch (fließend)
 
 ---
@@ -79,4 +119,5 @@ Anforderungen an Sicherheit, Nachweisbarkeit und Governance.
 ## Contact
 
 - Website: <https://thomaszachmann.de>
+- LinkedIn: <https://www.linkedin.com/in/thomaszachmann>
 - E-Mail: thomas@zachmann.work
