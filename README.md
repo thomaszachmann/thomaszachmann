@@ -1,7 +1,7 @@
 # Thomas Zachmann
 
 **Kubernetes platform architect for regulated and sovereign environments**
-On-prem · bare-metal · IONOS Cloud / Open Telekom Cloud · Hamburg, Germany
+On-prem · bare-metal · regulated environments · Hamburg, Germany
 
 ---
 
@@ -106,7 +106,6 @@ download.
 | **Automation & IaC** | Ansible, Terraform, Crossplane, Go, Python |
 | **GitOps & CI/CD** | Argo CD, Flux, GitLab CI, Jenkins, GitHub Actions |
 | **Observability** | Prometheus, Grafana, Loki, Tempo, Elastic |
-| **Sovereign platforms** | IONOS Cloud, Open Telekom Cloud, on-prem virtualisation |
 
 ---
 
