@@ -19,6 +19,18 @@ Certified **CKS**, **CKA**, **CKAD**. Twenty years of software engineering befor
 
 ---
 
+## Personal projects
+
+| Site | What it is |
+|---|---|
+| [itdrills.com](https://itdrills.com) | **IT Drills** – 30 free hands-on courses for platform, DevOps and SRE teams: Kubernetes, GitOps, security, observability, LLM platforms. Every lesson is a drill on a real system, with break-fix exercises and a final exam. PDF and EPUB editions included. |
+| [it-trainingslager.de](https://it-trainingslager.de) | **IT-Trainingslager** – the German original of IT Drills: the same 30 courses, free, with progress tracking on every device. |
+| [nyrvex.com](https://nyrvex.com) | **nyrvex** – an architecture for the control plane layer of AI infrastructure (see below). |
+| [thomaszachmann.de](https://thomaszachmann.de) | My freelance site: enterprise platforms for Kubernetes, cloud and AI workloads – profile, services, projects and the free German edition of my AI platform book. |
+| [lernstoffladen.de](https://lernstoffladen.de) | **lernstoffladen** – printable study books and workbooks for German school grades 5 to 7: 36 subjects, illustrated explanations and more than 1,600 worksheets with answers. |
+
+---
+
 ## Repositories
 
 ### [onprem-rke2-platform-reference](https://github.com/thomaszachmann/onprem-rke2-platform-reference)
@@ -136,6 +148,12 @@ erscheinen bei Leanpub.
 Modellen, Teams und Umgebungen, aus dem die Konfiguration von Gateway, Serving-Layer,
 Identity Provider und Secret Store erzeugt wird. Eine Architektur, kein Produkt:
 [nyrvex.com](https://nyrvex.com)
+
+**Persönliche Projekte:** [itdrills.com](https://itdrills.com) und
+[it-trainingslager.de](https://it-trainingslager.de) – 30 kostenlose Praxiskurse für
+Plattform-, DevOps- und SRE-Teams (Englisch und Deutsch), [nyrvex.com](https://nyrvex.com),
+[thomaszachmann.de](https://thomaszachmann.de) und [lernstoffladen.de](https://lernstoffladen.de) –
+Lernbücher und Übungshefte zum Ausdrucken für die Klassen 5 bis 7.
 
 **Sprachen:** Deutsch und Dänisch (Muttersprache), Englisch (fließend)
 
