@@ -67,14 +67,35 @@ on purpose.
 
 Five chapters ask you to destroy your own installation and recover it, because that is the
 part a reference manual cannot teach. Appendix F maps every published HashiCorp Certified:
-Vault Associate objective to a chapter and a lab. 581 pages.
+Vault Associate objective to a chapter and a lab. 598 pages.
 
 `vault` · `openbao` · `secrets-management` · `pki` · `kubernetes` · `docker`
+
+### [Vault in Production](https://leanpub.com/vault-in-production)
+
+The sequel to *Vault in Practice*: operating HashiCorp Vault and OpenBao after day one —
+measured restores, upgrades, monitoring, HSM seals and the failures nobody documents.
+
+`vault` · `openbao` · `operations` · `backup` · `hsm` · `monitoring`
+
+### [Keycloak in Practice](https://leanpub.com/keycloak-in-practice)
+
+Hands-on labs for Keycloak: OIDC and SAML on the wire, Active Directory, Kerberos, kubectl,
+Vault, backup, upgrades and Terraform — all on your laptop.
+
+`keycloak` · `oidc` · `saml` · `active-directory` · `kerberos` · `sso`
+
+### [Harbor in Practice](https://leanpub.com/harbor-in-practice)
+
+Hands-on labs for Harbor, the private container registry: VM and Kubernetes installs, robot
+accounts, scanning, signing, retention, backup, upgrades and observability.
+
+`harbor` · `container-registry` · `supply-chain` · `signing` · `kubernetes`
 
 ### [Enterprise AI Platform — Lab Guide](https://leanpub.com/enterprise-ai-platform)
 
 GPU infrastructure, model serving, the AI gateway, governance and the cost model — what
-lies between a proof of concept and an AI platform a company can actually operate. 386
+lies between a proof of concept and an AI platform a company can actually operate. 388
 pages, 23 labs with vLLM, KServe, LiteLLM, the NVIDIA GPU Operator, Keycloak, OpenBao,
 Argo CD and pgvector, including the calculations that decide whether a platform is
 affordable to run.
@@ -85,6 +106,27 @@ free of charge at [thomaszachmann.de/buch](https://thomaszachmann.de/buch).
 `ai-platform` · `llm` · `vllm` · `kserve` · `gpu-operator` · `kubernetes` · `finops`
 
 Runnable companion code is in [books](https://github.com/thomaszachmann/books).
+
+### [Hands-On series](https://nyrvex.com/hands-on) — free
+
+Ten compact lab guides for engineers preparing for a technical interview, 1,352 pages in
+total, free PDFs in English and German (a few German only) under CC BY-ND 4.0:
+
+| Guide | Length |
+|---|---|
+| k0s und LINSTOR — replicated block storage with LINSTOR and DRBD (German) | 147 pages |
+| Securing Kubernetes | 124 pages |
+| Kubernetes beobachten | 220 pages |
+| Debugging Kubernetes | 207 pages |
+| Linkerd zum Anfassen | 100 pages |
+| Kubernetes Observability Hands-On | 126 pages |
+| Kyverno Hands-On | 116 pages |
+| Helm Charts Hands-On | 114 pages |
+| Ceph Hands-On | 109 pages |
+| Dockerfiles Hands-On | 109 pages |
+
+Plus the 30 free courses on [itdrills.com](https://itdrills.com) /
+[it-trainingslager.de](https://it-trainingslager.de), each also available as a PDF and EPUB book.
 
 ---
 
@@ -138,11 +180,11 @@ und souveränen Umgebungen — On-Prem, Bare-Metal und auf europäischen Cloud-P
 Zertifiziert als CKS, CKA und CKAD. Seit 2020 durchgängig in Umfeldern mit erhöhten
 Anforderungen an Sicherheit, Nachweisbarkeit und Governance.
 
-**Bücher:** *Vault in Practice* — 581 Seiten zu HashiCorp Vault und OpenBao — sowie
-*Enterprise AI Platform — Lab Guide* zu GPU-Infrastruktur, Model Serving, AI Gateway,
-Governance und FinOps. Vom zweiten Buch steht die deutsche Fassung kostenlos unter
-[thomaszachmann.de/buch](https://thomaszachmann.de/buch), beide englischen Ausgaben
-erscheinen bei Leanpub.
+**Bücher bei Leanpub:** *Vault in Practice*, *Vault in Production*, *Keycloak in Practice*,
+*Harbor in Practice* und *Enterprise AI Platform — Lab Guide*. Die deutsche Fassung des
+letzten steht kostenlos unter [thomaszachmann.de/buch](https://thomaszachmann.de/buch).
+Dazu zehn kostenlose Lab Guides der [Hands-On-Reihe](https://nyrvex.com/hands-on) auf
+nyrvex.com und 30 kostenlose Kurse mit Büchern auf [it-trainingslager.de](https://it-trainingslager.de).
 
 **nyrvex:** Entwurf einer Control-Plane-Schicht für AI-Infrastruktur — ein Katalog aus
 Modellen, Teams und Umgebungen, aus dem die Konfiguration von Gateway, Serving-Layer,
